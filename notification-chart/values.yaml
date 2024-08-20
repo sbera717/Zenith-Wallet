@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: sbera717/java
+  repository: sbera717/notification-service
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: 2
