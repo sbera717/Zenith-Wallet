@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: wallet-app
-        image: sbera717/notification-service:v1
+        image: sbera717/notification-service:{{ .Values.image.tag }}
         ports:
         - containerPort: 8080
