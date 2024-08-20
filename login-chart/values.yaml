@@ -4,7 +4,7 @@ image:
   repository: sbera717/java
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "test2"
+  tag: 1
 
 ingress:
   enabled: false
