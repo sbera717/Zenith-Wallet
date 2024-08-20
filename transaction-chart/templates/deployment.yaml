@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: transaction-app
-        image: sbera717/transaction-service:v1
+        image: sbera717/transaction-service:{{ .Values.image.tag }}
         ports:
         - containerPort: 8080
