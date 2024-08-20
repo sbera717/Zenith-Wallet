@@ -1,0 +1,52 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: zenith
+spec:
+  ingressClassName: nginx 
+  rules:
+  - host: ec2-65-2-29-113.ap-south-1.compute.amazonaws.com
+    http:
+      paths: 
+      - path: /login
+        pathType: Prefix
+        backend:
+          service:
+            name: login
+            port:
+              number: 80
+      - path: /user
+        pathType: Prefix
+        backend:
+          service:
+            name: user
+            port:
+              number: 80
+      - path: /goalUser
+        pathType: Prefix
+        backend:
+          service:
+            name: user
+            port:
+              number: 80          
+      - path: /goalWallet
+        pathType: Prefix
+        backend:
+          service:
+            name: wallet
+            port:
+              number: 80
+      - path: /wallet
+        pathType: Prefix
+        backend:
+          service:
+            name: wallet
+            port:
+              number: 80
+      - path: /transaction
+        pathType: Prefix
+        backend:
+          service:
+            name: transaction
+            port:
+              number: 80
