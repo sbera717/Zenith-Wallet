@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: login-app
-        image: sbera717/login-service:v1
+        image: sbera717/login-service:{{ .Values.image.tag }}
         ports:
         - containerPort: 8080
