@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: user-app
-        image: sbera717/user-service:v1
+        image: sbera717/user-service:{{ .Values.image.tag }}
         ports:
         - containerPort: 8080
