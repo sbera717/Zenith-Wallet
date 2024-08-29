@@ -34,6 +34,8 @@ You can either install Keycloak and Kafka locally or use Docker for a simpler se
 
 For Keycloak, I will provide the Docker command with the necessary volume attached. Once Keycloak is running, you need to create a realm and configure it by giving the necessary permissions to the admin-cli and your client. After these configurations are done, my Spring Boot application will automatically create accounts in Keycloak and handle the necessary tasks
 
+docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin -v keycloak_data:/opt/keycloak/data quay.io/keycloak/keycloak:25.0.1 start-dev
+
 For Kafka, I will provide a Docker Compose file. Simply run the Docker Compose file, and both Kafka and Zookeeper will be up and running.
 
 Install an IDE: It is recommended to install an Integrated Development Environment (IDE) like IntelliJ IDEA or Eclipse. This will make it easier to test the application.
