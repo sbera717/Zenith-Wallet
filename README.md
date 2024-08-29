@@ -32,7 +32,7 @@ Set Up Keycloak and Kafka:
 
 You can either install Keycloak and Kafka locally or use Docker for a simpler setup. Using Docker is recommended as it is easier and more efficient.
 
-For Keycloak, I will provide the Docker command with the necessary volume attached, so no additional configuration is required.
+For Keycloak, I will provide the Docker command with the necessary volume attached. Once Keycloak is running, you need to create a realm and configure it by giving the necessary permissions to the admin-cli and your client. After these configurations are done, my Spring Boot application will automatically create accounts in Keycloak and handle the necessary tasks
 
 For Kafka, I will provide a Docker Compose file. Simply run the Docker Compose file, and both Kafka and Zookeeper will be up and running.
 
