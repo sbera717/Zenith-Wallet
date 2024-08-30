@@ -1,7 +1,7 @@
-# Zenith-Wallet
-An advanced E-wallet that goes beyond the basics.
+**Have you ever forgotten to save money for gifts for your loved ones, or do you find physical wallets cumbersome? I'm excited to introduce you to Zenith Wallet—a next-generation e-wallet designed to do more than just store your money.**
 
-Have you ever forgotten to save money for gifts for your loved ones, or do you find physical wallets cumbersome? I'm excited to introduce you to Zenith Wallet—a next-generation e-wallet designed to do more than just store your money.
+# **Zenith-Wallet**
+An advanced E-wallet that goes beyond the basics.
 
 Zenith Wallet is more than a traditional e-wallet; it's your personal savings companion. With features that allow you to save money for yourself and your loved ones, you'll never miss an opportunity to buy something special. What's more, the money you save with us earns interest, encouraging you to save even more. This way, you can finally afford that precious item you've always wanted.
 
