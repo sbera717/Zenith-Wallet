@@ -37,7 +37,7 @@ Set a Savings Goal: Choose a goal, like buying a laptop, with a specific monthly
 
 For Keycloak, use the below command. Once Keycloak is running, you need to create a realm and configure it by giving the necessary permissions to the admin-cli and your client. After these configurations are done, my Spring Boot application will automatically create accounts in Keycloak and handle the necessary tasks
 
-docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin -v keycloak_data:/opt/keycloak/data quay.io/keycloak/keycloak:25.0.1 start-dev
+**docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin -v keycloak_data:/opt/keycloak/data quay.io/keycloak/keycloak:25.0.1 start-dev**
 
 For Kafka, I will provide a Docker Compose file. Simply run the Docker Compose file, and both Kafka and Zookeeper will be up and running.
 
