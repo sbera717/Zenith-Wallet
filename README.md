@@ -6,11 +6,11 @@ An advanced E-wallet that goes beyond the basics.
 Zenith Wallet is more than a traditional e-wallet; it's your personal savings companion. With features that allow you to save money for yourself and your loved ones, you'll never miss an opportunity to buy something special. What's more, the money you save with us earns interest, encouraging you to save even more. This way, you can finally afford that precious item you've always wanted.
 
 # **How Zenith Wallet Works**
-Set a Savings Goal: Choose a goal, like buying a laptop, with a specific monthly amount and duration (e.g., $1000 for 10 months).
+**Set a Savings Goal:** Choose a goal, like buying a laptop, with a specific monthly amount and duration (e.g., 10000 for 10 months).
 
-**Earn Interest:** As you save, Zenith Wallet applies interest to your accumulated funds, rewarding you for staying on track.
+**Earn Interest:** As you save, Zenith applies interest to your accumulated funds, rewarding you for staying on track.
 
-**Automated Monthly Deductions:** Zenith Wallet deducts the specified amount from your balance each month, ensuring you consistently save toward your goal.
+**Automated Monthly Deductions:** Zenith  deducts the specified amount from your wallet balance each month, ensuring you consistently save toward your goal.
 
 **User-to-User Transfers:** Easily transfer money between users, making it simple to send or receive funds.
 
