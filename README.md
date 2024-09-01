@@ -44,3 +44,6 @@ For Kafka, I will provide a Docker Compose file. Simply run the Docker Compose f
 **Install an IDE:** It is recommended to install an Integrated Development Environment (IDE) like IntelliJ IDEA or Eclipse. This will make it easier to test the application.
 
 **Configure SMTP Server:** The application includes an SMTP server for sending emails in Notification Service. You can configure it to use your own SMTP server or any external service like Google's SMTP server.
+
+![Wallet-Final](https://github.com/user-attachments/assets/af7bcb38-8f91-489d-b0e1-7e154bcbad17)
+
